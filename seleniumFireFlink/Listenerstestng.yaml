@@ -1,0 +1,9 @@
+name: Suite
+configFailurePolicy: skip
+listeners:
+  - listeners.ListenersImplementation
+tests:
+  - name: Test
+  classes:
+    - listeners.TestScript2
+
